@@ -1,12 +1,17 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class StoreColorData : MonoBehaviour
 {
     public Color ChangeColor;
-    
-    
+
+    public void Start()
+    {
+        ChangeColor = Color.green;
+    }
+
     public void ChangeWaterColor()
     {
         ChangeColor = Color.blue;            

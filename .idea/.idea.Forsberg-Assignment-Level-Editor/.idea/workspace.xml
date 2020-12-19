@@ -8,6 +8,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../FitnessClicker/Assets/Scripts/InputName.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TileName.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StoreColorData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -15,6 +17,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/StoreColorData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChangeTileType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SaveGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SaveLoadGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TileName.cs" />
       </list>
     </option>
   </component>
@@ -23,4 +28,10 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state x="642" y="251" width="1893" height="1027" key="dock-window-1" timestamp="1608401324420">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="642" y="251" width="1893" height="1027" key="dock-window-1/-1920.349.1920.1040/0.0.2560.1400@-1920.349.1920.1040" timestamp="1608401324420" />
+  </component>
 </project>
