@@ -9,17 +9,19 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../FitnessClicker/Assets/Scripts/InputName.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TileName.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StoreColorData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/StoreColorData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChangeTileType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveLoadGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StoreColorData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TileName.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeColor.cs" />
       </list>
     </option>
   </component>
