@@ -2,23 +2,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class StoreColorData : MonoBehaviour
 {
     public Color ChangeColor;
+    public static Color selectedColor;
 
     public void Start()
     {
         ChangeColor = Color.green;
     }
 
-    public void ChangeWaterColor()
+    public void ChangeColors()
     {
-        ChangeColor = Color.blue;            
+        selectedColor = EventSystem.current.currentSelectedGameObject.GetComponent<Image>().color;
     }
-
-    public void ChangeGrassColor()
-    {
-        ChangeColor = Color.green;
-    } 
+    
 }

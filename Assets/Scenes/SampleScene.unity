@@ -2749,6 +2749,7 @@ GameObject:
   - component: {fileID: 447593865}
   - component: {fileID: 447593864}
   - component: {fileID: 447593867}
+  - component: {fileID: 447593868}
   m_Layer: 5
   m_Name: Water
   m_TagString: Untagged
@@ -2835,7 +2836,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1912529686}
         m_TargetAssemblyTypeName: StoreColorData, Assembly-CSharp
-        m_MethodName: ChangeWaterColor
+        m_MethodName: ChangeColors
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2896,6 +2897,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ColorData: {fileID: 0}
+--- !u!114 &447593868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447593862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30034a104d86f349bb868218c892d00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputFieldColor: {fileID: 1633468293}
+  imageColor: {fileID: 447593862}
+  oldColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &448348515
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11649,6 +11665,7 @@ GameObject:
   - component: {fileID: 1414662148}
   - component: {fileID: 1414662149}
   - component: {fileID: 3504304323909814468}
+  - component: {fileID: 1414662150}
   m_Layer: 0
   m_Name: Tiles
   m_TagString: Untagged
@@ -11799,6 +11816,18 @@ MonoBehaviour:
   m_Spacing: {x: 10, y: 10}
   m_Constraint: 1
   m_ConstraintCount: 10
+--- !u!114 &1414662150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414662147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7df8dabd195683545b1e4a8733b16e75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1417102291 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5334416969788980752, guid: 237e416aab5e5df4dbac73ebcdeb08fe,
@@ -12353,6 +12382,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1872946582}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1501176292 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5334416969788980753, guid: 237e416aab5e5df4dbac73ebcdeb08fe,
+    type: 3}
+  m_PrefabInstance: {fileID: 5334416969750622794}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1503400330
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13151,6 +13192,7 @@ GameObject:
   - component: {fileID: 1616722007}
   - component: {fileID: 1616722006}
   - component: {fileID: 1616722005}
+  - component: {fileID: 1616722008}
   m_Layer: 5
   m_Name: Grass
   m_TagString: Untagged
@@ -13235,9 +13277,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1912529686}
-        m_TargetAssemblyTypeName: StoreColorData, Assembly-CSharp
-        m_MethodName: ChangeGrassColor
+      - m_Target: {fileID: 1616722008}
+        m_TargetAssemblyTypeName: ChangeColor, Assembly-CSharp
+        m_MethodName: changeColor
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13285,6 +13327,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1616722003}
   m_CullTransparentMesh: 0
+--- !u!114 &1616722008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616722003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30034a104d86f349bb868218c892d00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputFieldColor: {fileID: 1953820340}
+  imageColor: {fileID: 1616722003}
+  oldColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &1618400795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13532,7 +13589,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1912529688}
+      - m_Target: {fileID: 447593868}
         m_TargetAssemblyTypeName: ChangeColor, Assembly-CSharp
         m_MethodName: changeColor
         m_Mode: 1
@@ -15753,7 +15810,6 @@ GameObject:
   - component: {fileID: 1912529685}
   - component: {fileID: 1912529686}
   - component: {fileID: 1912529687}
-  - component: {fileID: 1912529688}
   m_Layer: 5
   m_Name: Tile Types
   m_TagString: Untagged
@@ -15852,21 +15908,6 @@ MonoBehaviour:
   inputFieldName2: {fileID: 194546863}
   WaterText: {fileID: 1744077091}
   GrassText: {fileID: 2029342722}
---- !u!114 &1912529688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912529682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d30034a104d86f349bb868218c892d00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputFieldColor: {fileID: 1633468293}
-  inputFieldColor2: {fileID: 1953820340}
-  Water: {fileID: 447593862}
 --- !u!1 &1922218235
 GameObject:
   m_ObjectHideFlags: 0
@@ -16130,7 +16171,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.7490196, g: 1, b: 0.654902, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -16165,7 +16206,19 @@ MonoBehaviour:
       m_Calls: []
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1616722008}
+        m_TargetAssemblyTypeName: ChangeColor, Assembly-CSharp
+        m_MethodName: changeColor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
@@ -16186,7 +16239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7490196, g: 1, b: 0.654902, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -17673,6 +17726,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1414662148}
     m_Modifications:
+    - target: {fileID: 37979142271563275, guid: 237e416aab5e5df4dbac73ebcdeb08fe,
+        type: 3}
+      propertyPath: image
+      value: 
+      objectReference: {fileID: 1616722006}
+    - target: {fileID: 37979142271563275, guid: 237e416aab5e5df4dbac73ebcdeb08fe,
+        type: 3}
+      propertyPath: tileImage
+      value: 
+      objectReference: {fileID: 1501176292}
     - target: {fileID: 4579452818063301881, guid: 237e416aab5e5df4dbac73ebcdeb08fe,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -17803,5 +17866,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Image
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 37979142271563275, guid: 237e416aab5e5df4dbac73ebcdeb08fe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 237e416aab5e5df4dbac73ebcdeb08fe, type: 3}

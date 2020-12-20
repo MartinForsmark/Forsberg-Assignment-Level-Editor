@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="ChangeColor.cs" t="Include" />
+          <e p="ChangeColorOnTiles.cs" t="Include" />
           <e p="ChangeTileType.cs" t="Include" />
           <e p="SaveLoadGame.cs" t="Include" />
           <e p="StoreColorData.cs" t="Include" />

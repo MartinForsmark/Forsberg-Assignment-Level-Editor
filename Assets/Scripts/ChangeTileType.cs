@@ -15,7 +15,7 @@ public class ChangeTileType : MonoBehaviour
     }
 
     public void ChangeTileColor()
-     {
-         EventSystem.current.currentSelectedGameObject.GetComponent<Image>().color = ColorData.ChangeColor; // checks what game object that is pressed/clicked on
-     }
+    {
+        EventSystem.current.currentSelectedGameObject.GetComponent<Image>().color = StoreColorData.selectedColor;  // checks what game object that is pressed/clicked on
+    }
 }

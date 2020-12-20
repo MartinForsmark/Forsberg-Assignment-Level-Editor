@@ -14,16 +14,18 @@
     <setting file="file://$PROJECT_DIR$/../../FitnessClicker/Assets/Scripts/InputName.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TileName.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeColorOnTiles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StoreColorData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeTileType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveLoadGame.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StoreColorData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TileName.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeColorOnTiles.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeTileType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StoreColorData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChangeColor.cs" />
       </list>
     </option>
@@ -68,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608465837654</updated>
-      <workItem from="1608465851770" duration="1809000" />
+      <workItem from="1608465851770" duration="7194000" />
     </task>
     <servers />
   </component>
